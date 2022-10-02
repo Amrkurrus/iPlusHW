@@ -3,8 +3,9 @@
 using namespace std;
 
 int main() {
-	float x, y, sol;
+	int x, y;
+	float sol;
 	cin >> x >> y;
-	sol = (abs(x)) - abs(y) / (1 + abs(x * y));
+	sol = (fabs(x)) - fabs(y) / (1 + fabs(x * y));
 	cout << sol;
 }
