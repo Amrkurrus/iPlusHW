@@ -8,4 +8,6 @@ int main() {
 	cin >> x >> y;
 	sol = (fabs(x)) - fabs(y) / (1 + fabs(x * y));
 	cout << sol;
+	
+	return 0;
 }
