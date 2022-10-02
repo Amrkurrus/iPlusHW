@@ -7,4 +7,6 @@ int main() {
 	cin >> x;
 	sol = pow(x, 2) - 7 * x + 6;
 	cout << "solution is " << sol << endl;
+	
+	return 0;
 }
